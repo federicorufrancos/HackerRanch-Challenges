@@ -26,8 +26,51 @@ function freqQuery(queries) {
     return repetitions;
 }
 
-
-console.log('result', freqQuery([[1, 1], [2, 2], [3, 2], [1, 1], [1, 1], [2, 1], [3, 2]]));
-console.log('result', freqQuery([[1, 1], [2, 2], [3, 2], [1, 1], [1, 1], [2, 1], [3, 2]]));
-console.log('result', freqQuery([[3, 4], [2, 1003], [1, 16], [3, 1]]));
-console.log('result', freqQuery([[1, 3], [2, 3], [3, 2], [1, 4], [1, 5], [1, 5], [1, 4], [3, 2], [2, 4], [3, 2]]));
+console.log(
+    "result",
+    freqQuery([
+        [1, 1],
+        [2, 2],
+        [3, 2],
+        [1, 1],
+        [1, 1],
+        [2, 1],
+        [3, 2],
+    ])
+);
+console.log(
+    "result",
+    freqQuery([
+        [1, 1],
+        [2, 2],
+        [3, 2],
+        [1, 1],
+        [1, 1],
+        [2, 1],
+        [3, 2],
+    ])
+);
+console.log(
+    "result",
+    freqQuery([
+        [3, 4],
+        [2, 1003],
+        [1, 16],
+        [3, 1],
+    ])
+);
+console.log(
+    "result",
+    freqQuery([
+        [1, 3],
+        [2, 3],
+        [3, 2],
+        [1, 4],
+        [1, 5],
+        [1, 5],
+        [1, 4],
+        [3, 2],
+        [2, 4],
+        [3, 2],
+    ])
+);
