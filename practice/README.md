@@ -57,6 +57,7 @@ A single line which contains YES or NO.
 
 [See Solution](../practice/gameOfThrones.js)
 
+
 ## Chocolate Feast
 
 Little Bobby loves chocolate. He frequently goes to his favorite **5 & 10**  store, Penny Auntie, to buy them. They are having a promotion at Penny Auntie. If Bobby saves enough wrappers, he can turn them in for a free chocolate.
@@ -117,3 +118,100 @@ Each line **i** of the **n** subsequent lines contains a single integer, **grade
 For each **grades[i]**, print the rounded grade on a new line.
 
 [See Solution](../practice/gradingStudents.js)
+
+
+## Simple Array Sum
+
+Given an array of integers, find the sum of its elements.
+
+For example, if the array **ar=[1,2,3], 1+2+3=6**, so return **6**.
+
+### Function Description
+
+Complete the simpleArraySum function in the editor below. It must return the sum of the array elements as an integer.
+
+simpleArraySum has the following parameter(s):
+
+* ar: an array of integers
+
+### Input Format
+
+The first line contains an integer, **n**, denoting the size of the array.
+The second line contains **n** space-separated integers representing the array's elements.
+
+### Output Format
+
+Print the sum of the array's elements as a single integer.
+
+[See Solution](../practice/simpleArraySum.js)
+
+
+## Compare the Triplets
+
+Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges, awarding points on a scale from 1 to 100 for three categories: problem clarity, originality, and difficulty.
+
+The rating for Alice's challenge is the triplet a = (a[0], a[1], a[2]), and the rating for Bob's challenge is the triplet b = (b[0], b[1], b[2]).
+
+The task is to find their comparison points by comparing a[0] with b[0], a[1] with b[1], and a[2] with b[2].
+
+If a[i] > b[i], then Alice is awarded 1 point.
+If a[i] < b[i], then Bob is awarded 1 point.
+If a[i] = b[i], then neither person receives a point.
+Comparison points is the total points a person earned.
+
+Given a and b, determine their respective comparison points.
+
+### Example
+
+a = [1, 2, 3]
+b = [3, 2, 1]
+For elements *0*, Bob is awarded a point because a[0] .
+For the equal elements a[1] and b[1], no points are earned.
+Finally, for elements 2, a[2] > b[2] so Alice receives a point.
+The return array is [1, 1] with Alice's score first and Bob's second.
+
+### Function Description
+
+Complete the function compareTriplets in the editor below.
+
+compareTriplets has the following parameter(s):
+
+* int a[3]: Alice's challenge rating
+* int b[3]: Bob's challenge rating
+
+### Return
+
+* int[2]: Alice's score is in the first position, and Bob's score is in the second.
+
+### Input Format
+
+The first line contains 3 space-separated integers, a[0], a[1], and a[2], the respective values in triplet a.
+The second line contains 3 space-separated integers, b[0], b[1], and b[2], the respective values in triplet b.
+
+[See Solution](../practice/compareTriplets.js)
+
+
+## A Very Big Sum
+
+In this challenge, you are required to calculate and print the sum of the elements in an array, keeping in mind that some of those integers may be quite large.
+
+### Function Description
+
+Complete the aVeryBigSum function in the editor below. It must return the sum of all array elements.
+
+aVeryBigSum has the following parameter(s):
+
+* int ar[n]: an array of integers .
+
+### Return
+
+* long: the sum of all array elements
+
+### Input Format
+
+The first line of the input consists of an integer **n**.
+The next line contains **n** space-separated integers contained in the array.
+
+### Output Format
+
+Return the integer sum of the elements in the array.
